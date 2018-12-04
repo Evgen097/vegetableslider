@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vegetables slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modalwindowstyle.css">
+</head>
+<body>
+
+    <div class="container">
+
+
+        <input id="first"  checked="checked" name="radio" type="radio">
+        <input id="second"  name="radio" type="radio">
+
+
+        <ul class="vegetables">
+
+            <li class="veggis  vegg_1 vegg_first">
+                <div class="vegg">
+                    <img src="./img/brokkoli.jpg" alt="">
+
+                    <a href="#modal_1" class="showmodalwindow"></a>
+
+                    <div class="description">
+                        Брокколи – однолетнее растение семейства Капустных. Существует много сортов этого овоща,
+                        но чаще всего используют именно сорт калабрезе. Кочан имеет форму зонтика с толстым стеблем
+                        и огромным количеством соединенных друг с другом соцветий зеленого цвета (см. фото).
+                        Многие люди из-за этого называют брокколи «мозгами».
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_2 vegg_first">
+                <div class="vegg">
+                    <img src="./img/baklazhan.jpg" alt="">
+
+                    <a href="#modal_2" class="showmodalwindow"></a>
+
+                    <div class="description">
+                        Баклажан – многолетнее растение рода паслен. Достаточно широко распространено другое
+                        название этого овоща – синенькие. Прочная кожура овоща покрывает плотную мякоть с
+                        большим количеством мелких семечек.
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_3 vegg_first">
+                <div class="vegg">
+                    <img src="./img/kartofel.jpg" alt="">
+
+                    <a href="#modal_3" class="showmodalwindow"></a>
+
+                    <div class="description">
+                        Картофель – клубненосные растения рода паслен. Родиной этого овоща считается Южная Америка,
+                        кстати, именно там его еще можно встретить дикорастущим.
+                        История о том, что на территорию России картофель завез царь Перт I, достаточно известная.
+                        На данный момент овощ распространен практически во всем мире, но больше всего его выращивают
+                        в Китае.
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_4 vegg_first">
+                <div class="vegg">
+                    <img src="./img/kapusta-savojskaya.jpg" alt="">
+                    <a href="#modal_4" class="showmodalwindow"></a>
+                    <div class="description">
+                        Савойская капуста – растение семейства капустные. Название овоща непосредственно связано
+                        с графством в Италии, где впервые оно и было обнаружено. В Америке и Канаде этот вид капусты
+                        занимает лидирующие позиции в сравнении со всеми прочими. У савойской капусты нет жестких
+                        прожилок, и также она обладает нежным вкусом и необычным ароматом.
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_5 vegg_second">
+                <div class="vegg">
+                    <img src="./img/kapusta-krasnokochannaya.jpg" alt="">
+                    <a href="#modal_5" class="showmodalwindow"></a>
+                    <div class="description">
+                        Капуста краснокочанная – растение семейства капустные. Кочаны этого овоща небольшие
+                        и достаточно плотные, при этом окрашены они в фиолетово-красный цвет.
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_6 vegg_second">
+                <div class="vegg">
+                    <img src="./img/varenaja-morkov.jpg" alt="">
+                    <a href="#modal_6" class="showmodalwindow"></a>
+                    <div class="description">
+                        Вареная морковь – это один из самых распространенных ингредиентов для приготовления
+                        большого количества различных блюд. Данный корнеплод можно не только варить, но еще
+                        и жарить, тушить, мариновать и т.д.
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_7 vegg_second">
+                <div class="vegg">
+                    <img src="./img/perec-habanero.jpg" alt="">
+                    <a href="#modal_7" class="showmodalwindow"></a>
+                    <div class="description">
+                        Перец хабанеро – наиболее популярный вид чили. Название имеет непосредственную связь
+                        со столицей Кубы Гаваны. Как и другие виды чили, этот перец появился в Мексике.
+                        Форму плоды имеют сердцевидную и весят они при этом не больше 15 г.
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="veggis vegg_8 vegg_second">
+                <div class="vegg">
+                    <img src="./img/repchatyj-luk-belyj.png" alt="">
+                    <a href="#modal_8" class="showmodalwindow"></a>
+                    <div class="description">
+                        Репчатый лук белый – растение семейства Луковые. Овощ имеет плотную луковицу белого цвета,
+                        которая имеет практически идеальную форму. Вкус у этого растения не такой острый и имеет
+                        он яркий аромат. В Средней Азии, Мексике и Италии белый лук занимает лидирующие позиции.
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+
+
+        <div id="modal_1" class="modalwindow">
+            <img class="modalimg" src="./img/brokkoli.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_2" class="modalwindow">
+            <img class="modalimg" src="./img/baklazhan.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_3" class="modalwindow">
+            <img class="modalimg" src="./img/kartofel.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_4" class="modalwindow">
+            <img class="modalimg" src="./img/kapusta-savojskaya.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_5" class="modalwindow">
+            <img class="modalimg" src="./img/kapusta-krasnokochannaya.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_6" class="modalwindow">
+            <img class="modalimg" src="./img/varenaja-morkov.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_7" class="modalwindow">
+            <img class="modalimg" src="./img/perec-habanero.jpg" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+        <div id="modal_8" class="modalwindow">
+            <img class="modalimg" src="./img/repchatyj-luk-belyj.png" alt="">
+            <a href="#" class="close">&times;</a>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>

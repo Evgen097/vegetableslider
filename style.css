@@ -1,0 +1,167 @@
+.container{
+    position: relative;
+    width: 100%;
+    /*background-color: #a3a9ab;*/
+}
+.vegetables{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    /*height: 800px;*/
+    /*background-color: #8d9395;*/
+    margin: 50px 0px 0px -400px;
+
+}
+.veggis{
+    position: relative;
+    /*height: 600px;*/
+    /*overflow: hidden;*/
+    display: inline-block;
+    width: 24%;
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
+    /*background-color: #48ff30;*/
+}
+
+.vegg{
+    position: absolute;
+    background-color: white;
+}
+
+
+.vegg_1{
+    z-index: 110;
+}
+.vegg_2{
+    z-index: 109;
+}
+.vegg_3{
+    z-index: 108;
+}
+.vegg_4{
+    z-index: 107;
+}
+.vegg_5{
+    z-index: 106;
+}
+.vegg_6{
+    z-index: 105;
+}
+.vegg_7{
+    z-index: 104;
+}
+.vegg_8{
+    z-index: 103;
+}
+
+.vegg > img{
+    width: 80%;
+    /*margin: 10%;*/
+    padding: 10%;
+
+    /*background-color: #ff1b1d;*/
+}
+
+
+.description{
+    /*display: block;*/
+    display: none;
+    margin: 20px 20px;
+    font-size: small;
+    height: 300px;
+    overflow: hidden;
+}
+
+.vegg:hover {
+    width: 140%;
+    border: 1px solid #c5c1a9;
+    box-shadow: 5px 5px 10px 5px rgba(221, 221, 221, 1);
+    /*background-color: #fff714;*/
+}
+
+
+.showmodalwindow:hover ~ .description{
+    display: block;
+}
+
+img:hover img{
+    /*width: 280px;*/
+    /*background-color: #ff14fa;*/
+}
+
+
+input[type=radio] {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+#second{
+    left: calc(50% + 35px);
+}
+
+
+.vegg_first, .vegg_second{
+    position: relative;
+    vertical-align: top;
+    transition: visibility 0s, opacity 1s linear;
+}
+
+.vegg_first{
+    margin-top: 30px;
+}
+
+
+input[id=first]:checked ~ .vegetables  .vegg_first{
+    visibility: visible;
+    opacity: 1;
+}
+
+input[id=first]:checked ~ .vegetables  .vegg_second{
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+input[id=second]:checked ~ .vegetables  .vegg_first {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+input[id=second]:checked ~ .vegetables  .vegg_second {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.veggis:hover .vegg{*/
+    /*width: 320px;*/
+    /*border: 1px solid #c5c1a9;*/
+    /*box-shadow: 5px 5px 10px 5px rgba(221, 221, 221, 1);*/
+    /*background-color: #fff714;*/
+/*}*/
+
+/*.veggis:hover .description{*/
+     /*display: block;*/
+ /*}*/
+
+/*.veggis:hover .vegg .image img{*/
+    /*width: 280px;*/
+    /*background-color: #ff14fa;*/
+/*}*/
+
